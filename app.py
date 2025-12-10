@@ -6,7 +6,7 @@ import tensorflow as tf
 app = FastAPI()
 
 # Load model
-model = tf.keras.models.load_model("your_model.keras")  # change if different name
+model = tf.keras.models.load_model("model.keras")  # change if different name
 
 @app.get("/")
 def home():
