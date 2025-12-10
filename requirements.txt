@@ -2,3 +2,4 @@ fastapi
 uvicorn[standard]
 tensorflow
 python-multipart
+librosa
