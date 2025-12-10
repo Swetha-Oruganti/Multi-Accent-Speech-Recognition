@@ -1,5 +1,4 @@
 fastapi
-uvicorn
+uvicorn[standard]
 tensorflow
-librosa
-numpy
+python-multipart
